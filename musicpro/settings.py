@@ -93,7 +93,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'prueba_mp2',
-        'USER': 'hugo',
+        'USER': 'musicpro',
         'PASSWORD': '123',
         'HOST': '192.168.1.88',
         'PORT': '3306',
