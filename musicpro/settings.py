@@ -91,15 +91,8 @@ WSGI_APPLICATION = 'musicpro.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'prueba_mp2',
-        'USER': 'musicpro',
-        'PASSWORD': '123',
-        'HOST': '192.168.1.88',
-        'PORT': '3306',
-        'OPTIONS':{
-            'init_command': 'SET default_storage_engine=INNODB',
-        },
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
