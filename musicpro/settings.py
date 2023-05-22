@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-#&rohuqrmjzn@9nixi38!-+3p_*=klp%(8x)ngo-a4o0(n36=z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.1.88','localhost','.vercel.app']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -93,7 +93,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'prueba_mp2',
-        'USER': 'musicpro',
+        'USER': 'hugo',
         'PASSWORD': '123',
         'HOST': '192.168.1.88',
         'PORT': '3306',
